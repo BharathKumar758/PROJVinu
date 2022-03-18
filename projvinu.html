@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="mystyle.css">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<script>
+    function myFunction1() {
+  document.getElementById("f1").removeAttribute("hidden");
+  }
+  function myFunction2() {
+  document.getElementById("f2").removeAttribute("hidden");
+}
+</script>
+
+
+<body style="column-count: 2;";>
+<h1 style="font-family: 'Times New Roman', Times, serif; font-size: 80px;";>Project Vinu. </h1>
+<button id="loom" style="border-radius: 50%;" onclick="myFunction2()"><img src="C:\Users\Bharath Kumar\Desktop\1000_F_417922244_saGEvfyzOI27q512l4KxJvfvONaM00Ij-modified.png" width="250" height="250"></button>
+<button id="shop" style="border-radius: 50%;" onclick="myFunction1()"><img src="C:\Users\Bharath Kumar\Desktop\962ff6c2e535eebc9d762cf420b631c8-modified.png" width="250" height="250" border-radius="50%"></button>
+
+
+<br><br>
+<form action="shop1.html" method="post" hidden id="f1">
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+        <br>
+        <br>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+          <br>
+          <br>
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+  </form>
+
+
+
+  <form action="loom1.html" method="post" hidden id="f2">
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+        <br>
+        <br>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+          <br>
+          <br>
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+  </form>
+</body>
+</html>
